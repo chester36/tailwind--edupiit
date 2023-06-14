@@ -1,5 +1,5 @@
 const toggleMenu = document.querySelector(".toggle__menu");
-const mobileNav = document.querySelector(".dropdown-nav");
+const mobileNav = document.querySelector(".drop__toggle");
 const header = document.querySelector(".header");
 const body = document.querySelector("body");
 toggleMenu.addEventListener("click", () => {
