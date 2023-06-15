@@ -28,7 +28,7 @@
     }
 
     .btn.green:hover{
-        @apply bg-dark text-light;
+        @apply bg-dark text-light transition-all ease-in-out duration-500;
     }
 
     .btn.greenLine{
@@ -36,7 +36,7 @@
     }
 
     .btn.greenLine:hover{
-        @apply bg-primary text-light border-solid border-[1px] border-primary transition-[.5s] ease-in rounded-[5px];
+        @apply bg-primary text-light border-solid border-[1px] border-primary transition-[.5s]  rounded-[5px] ease-in-out duration-500;
     }
 }
 
@@ -127,6 +127,13 @@
     }
     .header__nav nav a.free{
         @apply hidden lg:block 
+    }
+
+    .header__socials ul li a:hover{
+        @apply text-black
+    }
+    .header__log span{
+        @apply rotate-90 text-white w-[1rem] h-[1rem]
     }
 
     /* SLIDER BANNER */
